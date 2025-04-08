@@ -6,15 +6,6 @@ import Link from "next/link";
 import { Twitter, Github, Send, Youtube, Instagram } from "lucide-react";
 
 export default function Header() {
-  // Function to handle smooth scrolling to the reviews section
-  const scrollToReviews = (e: React.MouseEvent) => {
-    e.preventDefault();
-    const reviewsSection = document.getElementById("reviews");
-    if (reviewsSection) {
-      reviewsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <header className="max-w-6xl mx-auto px-4 sticky top-0 z-50">
       <nav className="flex items-center justify-between py-4 rounded-full bg-black/80 border border-gray-400 backdrop-blur-sm mt-4 px-6">
@@ -23,13 +14,9 @@ export default function Header() {
           <Link href="/" className="hover:text-yellow-300 transition">
             Home
           </Link>
-          <a
-            href="#reviews"
-            onClick={scrollToReviews}
-            className="hover:text-yellow-300 transition"
-          >
+          <Link href="#reviews" className="hover:text-yellow-300 transition">
             Reviews
-          </a>
+          </Link>
           <Link href="#projects" className="hover:text-yellow-300 transition">
             Projects
           </Link>

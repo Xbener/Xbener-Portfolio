@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <section id="projects" className="w-full mt-32">
+    <section id="projects" className="w-full mt-32 bg-black">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-6">
         Recent Projects
       </h2>

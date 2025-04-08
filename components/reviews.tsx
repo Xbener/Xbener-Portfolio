@@ -1,8 +1,9 @@
 import Image from "next/image";
+import StackIcon from "tech-stack-icons";
 
 export default function Reviews() {
   return (
-    <section id="reviews" className="w-full mt-32">
+    <section id="reviews" className="w-full mt-32 bg-black">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-10">
         Trusted by World&apos;s coolest web3 teams
       </h2>
@@ -140,27 +141,57 @@ export default function Reviews() {
           My Tech Stack
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
-          <Image src="/tech/agent.png" alt="Agent" width={40} height={40} />
-          <Image
-            src="/tech/typescript.png"
-            alt="TypeScript"
-            width={40}
-            height={40}
+          <StackIcon name="javascript" />
+          <StackIcon name="typescript" />
+          <StackIcon name="c++" />
+          <StackIcon name="python" />
+          <StackIcon name="reactjs" />
+          <StackIcon name="vuejs" />
+          <StackIcon name="angular17" />
+          <StackIcon name="nextjs2" />
+          <StackIcon name="nodejs" />
+          <StackIcon name="nestjs" />
+          <StackIcon name="django" />
+          <StackIcon name="mongodb" />
+          <StackIcon name="mysql" />
+          <StackIcon name="postgresql" />
+          <StackIcon name="firebase" />
+          <StackIcon name="supabase" />
+          <StackIcon name="graphql" />
+          <StackIcon name="electron" />
+          <StackIcon name="vitejs" />
+
+          <img
+            src="https://skillicons.dev/icons?i=rust&theme=light&perline=15"
+            width="100"
+            height="100"
+            alt="rust"
           />
-          <Image src="/tech/nextjs.png" alt="Next.js" width={40} height={40} />
-          <Image src="/tech/solana.png" alt="Solana" width={40} height={40} />
-          <Image src="/tech/node.png" alt="Node.js" width={40} height={40} />
-          <Image src="/tech/mongo.png" alt="MongoDB" width={40} height={40} />
-          <Image
-            src="/tech/ethereum.png"
-            alt="Ethereum"
-            width={40}
-            height={40}
+          <img
+            src="https://skillicons.dev/icons?i=solidity&theme=light&perline=15"
+            width="100"
+            height="100"
+            alt="solidity"
           />
-          <Image src="/tech/bitcoin.png" alt="Bitcoin" width={40} height={40} />
-          <Image src="/tech/vercel.png" alt="Vercel" width={40} height={40} />
-          <Image src="/tech/graphql.png" alt="GraphQL" width={40} height={40} />
-          <Image src="/tech/rust.png" alt="Rust" width={40} height={40} />
+
+          <img
+            src="https://skillicons.dev/icons?i=aws&theme=light&perline=15"
+            width="100"
+            height="100"
+            alt="aws"
+          />
+          <img
+            src="https://skillicons.dev/icons?i=vercel&theme=light&perline=15"
+            width="100"
+            height="100"
+            alt="vercel"
+          />
+          <StackIcon name="azure" />
+          <StackIcon name="docker" />
+          <StackIcon name="git" />
+          <StackIcon name="digitalocean" />
+          <StackIcon name="linux" />
+          <StackIcon name="ubuntu" />
         </div>
       </div>
     </section>
