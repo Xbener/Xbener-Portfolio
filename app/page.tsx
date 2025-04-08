@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Reviews from "@/components/reviews";
-import Projects from "@/components/project";
+import Projects from "@/components/projects";
 
 export default function Home() {
   return (

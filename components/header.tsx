@@ -30,10 +30,10 @@ export default function Header() {
           >
             Reviews
           </a>
-          <Link href="/projects" className="hover:text-yellow-300 transition">
+          <Link href="#projects" className="hover:text-yellow-300 transition">
             Projects
           </Link>
-          <Link href="/contact" className="hover:text-yellow-300 transition">
+          <Link href="#contact" className="hover:text-yellow-300 transition">
             Contact
           </Link>
         </div>
