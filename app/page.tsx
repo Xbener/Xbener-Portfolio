@@ -4,16 +4,20 @@ import Reviews from "@/components/reviews";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import XbenerImg from "@/app/favicon.ico";
 
 export default function Home() {
   return (
     <div className="text-white">
       <main className="grid-background min-h-screen flex flex-col items-center justify-center flex-1 max-w-6xl mx-auto px-4 text-center pt-32 pb-20">
         {/* Hero Section */}
-        <div className="flex items-center justify-center">
+        <div className="flex flex-row items-center justify-center">
           <h1 className="text-6xl md:text-7xl font-bold tracking-tighter">
             Xbener
           </h1>
+          <div className="rounded-full">
+            <Image alt="Xbener" src={XbenerImg} width={150} height={150} />
+          </div>
         </div>
 
         <p className="mt-8 text-xl">
@@ -27,9 +31,11 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
-          <button className="px-8 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">
-            Tech Skills
-          </button>
+          <Link href="#skills" className="hover:text-yellow-300 transition">
+            <button className="px-8 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">
+              Tech Skills
+            </button>
+          </Link>
           <Link href="#contact" className="hover:text-yellow-300 transition">
             <button className="px-8 py-3 border border-white rounded-full font-medium hover:bg-white/10 transition">
               Let's get in touch ↗
