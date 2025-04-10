@@ -5,18 +5,18 @@ export default function Reviews() {
   return (
     <section id="reviews" className="w-full mt-32 bg-black">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-10">
-        Trusted by World&apos;s coolest web3 teams
+        Results-driven and highly experienced Software Engineer
       </h2>
 
       <div className="flex flex-wrap justify-center gap-4 mb-16">
         <div className="bg-black/60 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-800">
-          +10 Years Experience
+          +7 Years Experience
         </div>
         <div className="bg-black/60 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-800">
-          +30 Web2 Projects
+          +20 Web2 Projects
         </div>
         <div className="bg-black/60 backdrop-blur-sm px-6 py-3 rounded-full border border-gray-800">
-          +25 Web3 Projects
+          +15 Web3 Projects
         </div>
       </div>
 
@@ -32,7 +32,7 @@ export default function Reviews() {
               <div className="text-gray-400 text-sm">@Binarybit_pro</div>
             </div>
           </div>
-          <p>Thank you for the great work @0xmooncity @binance</p>
+          <p>Thank you for the great work @x_bener @binance</p>
         </div>
 
         {/* LoxrBtc Review */}
@@ -48,7 +48,7 @@ export default function Reviews() {
           </div>
           <p>
             If you have a project and need a developer, highly recommending
-            Moon.
+            Xbener.
           </p>
         </div>
 
@@ -64,8 +64,8 @@ export default function Reviews() {
             </div>
           </div>
           <p>
-            Legend has it @0xMooncity does not sleep, just codes. Apex predator
-            of web3 devs.
+            Legend has it @x_bener does not sleep, just codes. Apex predator of
+            web3 devs.
           </p>
         </div>
 
@@ -81,8 +81,8 @@ export default function Reviews() {
             </div>
           </div>
           <p>
-            Our web3/solana dev @0xmooncity absolutely killed it on a solana
-            tool project and delivered in the deadline I set.
+            Our web3/solana dev @x_bener absolutely killed it on a solana tool
+            project and delivered in the deadline I set.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function Reviews() {
               <div className="text-gray-400 text-sm">@not00nice</div>
             </div>
           </div>
-          <p>Can confirm that @0xmooncity is a great dev in solana!!!</p>
+          <p>Can confirm that @x_bener is a great dev in solana!!!</p>
         </div>
 
         {/* PYNO Review */}
@@ -130,8 +130,8 @@ export default function Reviews() {
             </div>
           </div>
           <p>
-            Mooncity audited our smart contract and submitted to Blowfish wallet
-            team. Thanks again Mooncity
+            Xbener audited our smart contract and submitted to Blowfish wallet
+            team. Thanks again Xbener
           </p>
         </div>
       </div>
@@ -141,7 +141,7 @@ export default function Reviews() {
           My Tech Stack
         </h2>
         <div className="flex flex-wrap justify-center gap-6">
-          <StackIcon name="javascript" />
+          <StackIcon name="js" />
           <StackIcon name="typescript" />
           <StackIcon name="c++" />
           <StackIcon name="python" />
@@ -160,7 +160,6 @@ export default function Reviews() {
           <StackIcon name="graphql" />
           <StackIcon name="electron" />
           <StackIcon name="vitejs" />
-
           <img
             src="https://skillicons.dev/icons?i=rust&theme=light&perline=15"
             width="100"
@@ -173,7 +172,6 @@ export default function Reviews() {
             height="100"
             alt="solidity"
           />
-
           <img
             src="https://skillicons.dev/icons?i=aws&theme=light&perline=15"
             width="100"

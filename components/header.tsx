@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className="max-w-6xl mx-auto px-4 sticky top-0 z-50">
       <nav className="flex items-center justify-between py-4 rounded-full bg-black/80 border border-gray-400 backdrop-blur-sm mt-4 px-6">
-        <div className="font-bold text-xl">MoonCity</div>
+        <div className="font-bold text-xl">Xbener</div>
         <div className="hidden md:flex items-center space-x-6">
           <Link href="/" className="hover:text-yellow-300 transition">
             Home

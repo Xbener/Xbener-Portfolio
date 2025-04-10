@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "title": "Fork Trojanbot SOL",
+    "description": "Trojan Bot is a popular trading and sniping bot on the Solana blockchain that's designed to help traders execute trades with speed and efficiency. If you're developing a wallet tracking system like we discussed earlier, understanding how Trojan Bot and similar tools operate can help you identify how trades are executed on-chain and potentially improve your transaction parsing logic.",
+    "image": "/projects/trojan_bot.png",
+    "technologies": ["react", "solana", "typescript", "commerce"],
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "Discord bot tracking wallet & tweet",
+    "description": "A Solana wallet tracking bot for copytrading serves as an automated system that monitors specific wallets on the Solana blockchain and replicates their trading activities. Here's how it works and what it's used for: Wallet monitoring, Tx Detection, Trade Analysis, Trade Replication, Notify System",
+    "image": "/projects/discord_wallet_tracking_bot.png",
+    "technologies": ["code", "twitter", "solana", "typescript", "commerce"],
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Twitter Scan bot",
+    "description": "I built a function to query and scrape any potential contract addresses from each new tweet from verified accounts. Pipe those contract addresses to an enhanced buy function on either raydium/pumpfun/uniswap (with adjustable high gas fee's/jito) I started with just solana for pumpfun/raydium/meteora",
+    "image": "/projects/twitter_bot.png",
+    "technologies": ["next", "twitter", "solana", "typescript", "commerce"],
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "SocialAI frontend development",
+    "description": "SocialAI is a new Twitter clone where instead of humans, different types of AI bots respond to your posts. In this project, I built handsome pages using Next.js and TailwindCSS.",
+    "image": "/projects/socialai.gif",
+    "technologies": ["next", "tailwind", "nodejs", "typescript"],
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "$FLORK Mint",
+    "description": "Welcome to the immersive Flork's world - a unique and vibrant collection on the Solana blockchain. The real Flork's OG collections.",
+    "image": "/projects/flork.png",
+    "technologies": ["rust", "react", "nodejs", "typescript"],
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "Memepad Launchpad",
+    "description": "MEMEPad is where the REAL memecoin degens go to get filthy rich. Next-gen coins, rug-proof, and ready to PUMP. I built the smart contract of memepad using rust and also backend aswell as integration of memepad with Meteora Pool",
+    "image": "/projects/meme_pad.png",
+    "technologies": ["solana", "nodejs", "typescript", "rust"],
+    "link": "#"
+  },
+  {
+    "id": 7,
+    "title": "Copytrading bot",
+    "description": "The bot is monitoring trader's wallet. And execute trading according to the trader's wallet. For example, if the trader buys tokens, this bot buys the tokens too and if the trader sells token, the bot sells token too.",
+    "image": "/projects/copytrading.png",
+    "technologies": ["solana", "nodejs", "typescript"],
+    "link": "#"
+  },
+  {
+    "id": 8,
+    "title": "Bullx Trading Platform Fork",
+    "description": "Advanced Dex Trading System backed by the Best 🔥 Sol, Blast, Base, BSC, TRON, ARB and more. Snipe, Copy Trade, Limit orders and more. For now, I forked the solana features like Pumpfun and raydium trading , buy/sell etc...",
+    "image": "/projects/bullx.png",
+    "technologies": ["solana", "nodejs", "typescript", "mongodb", "next"],
+    "link": "#"
+  },
+  {
+    "id": 9,
+    "title": "Meteora Volume Bot",
+    "description": "Automated SOL Distribution: Distributes SOL to new wallets. Endless Buy and Sell Swaps: Performs simultaneous buy and sell transactions. Swap with Jupiter V6: Swap is performed with Jupiter V6 swap aggregator. Configurable Parameters: Allows customization of buy amounts, intervals, distribution settings, and more.",
+    "image": "/projects/meteora_bot.png",
+    "technologies": ["solana", "nodejs", "typescript"],
+    "link": "#"
+  },
+  {
+    "id": 10,
+    "title": "Raydium VolumeBot",
+    "description": "Raydium is an automated market maker (AMM) built on the Solana blockchain which enables lightning-fast trades, permissionless pool creation, and new features for earning yield. This volume bot distribute SOL to multiple wallets and buy and sell with that distributed wallets permanently on the Raydium platform.",
+    "image": "/projects/raydium_bot.png",
+    "technologies": ["solana", "nodejs", "typescript"],
+    "link": "#"
+  },
+  {
+    "id": 11,
+    "title": "Trenchor NFT mint",
+    "description": "Solana Free NFT mint. We have received hundreds of collaboration requests across multiple blockchains. As for now, FCFS collaborations are officially paused. Subber/Atlas coming soon with the opening of the server. Before any major event there will always be a detailed announcement prior to it.",
+    "image": "/projects/trenchor.png",
+    "technologies": ["solana", "nodejs", "typescript"],
+    "link": "#"
+  }
+]

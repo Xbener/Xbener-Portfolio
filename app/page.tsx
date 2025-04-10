@@ -9,22 +9,17 @@ export default function Home() {
         {/* Hero Section */}
         <div className="flex items-center justify-center">
           <h1 className="text-6xl md:text-7xl font-bold tracking-tighter">
-            MoonCity
+            Xbener
           </h1>
-          <Image
-            src="/moon.png"
-            alt="Moon"
-            width={60}
-            height={60}
-            className="ml-2 -mt-4"
-          />
         </div>
 
         <p className="mt-8 text-xl">
-          The name is <span className="text-yellow-300">James Jam</span>, but
-          you can call me <span className="text-yellow-300">Mooncity</span> 🌙.
+          With 7 years of industry experience and a track record of successful
+          projects, I bring expertise in front-end and back-end development,
+          DeFi/DEX platforms and NFT marketplaces, helping projects scale and
+          push Web3 forward.
         </p>
-        <p className="mt-2 text-xl">
+        <p className=" text-xl">
           I am a Software Engineer and an Open-source enthusiast.
         </p>
 

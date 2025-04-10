@@ -7,9 +7,9 @@ import Header from "@/components/header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MoonCity - Software Engineer",
+  title: "Xbener - Software Engineer",
   description:
-    "Personal portfolio of James Jam, a Software Engineer and Open-source enthusiast",
+    "Personal portfolio of Xbener, a Software Engineer and Open-source enthusiast",
 };
 
 export default function RootLayout({
@@ -20,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} text-white`}>
+        <div className="mt-5"></div>
         <Header />
+
         {children}
       </body>
     </html>
