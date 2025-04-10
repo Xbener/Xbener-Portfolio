@@ -68,25 +68,25 @@ export default function Reviews() {
           <StackIcon name="graphql" />
           <StackIcon name="electron" />
           <StackIcon name="vitejs" />
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=rust&theme=light&perline=15"
             width="100"
             height="100"
             alt="rust"
           />
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=solidity&theme=light&perline=15"
             width="100"
             height="100"
             alt="solidity"
           />
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=aws&theme=light&perline=15"
             width="100"
             height="100"
             alt="aws"
           />
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=vercel&theme=light&perline=15"
             width="100"
             height="100"

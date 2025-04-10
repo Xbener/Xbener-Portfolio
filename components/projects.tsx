@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import projectsData from "../lib/project.json";
+import letter from "@/lib/letter.json";
 
 export default function Projects() {
   return (
@@ -9,8 +10,7 @@ export default function Projects() {
         Recent Projects
       </h2>
       <p className="text-center text-xl mb-16 max-w-3xl mx-auto">
-        I've worked on a variety of projects, from web2 to web3 Dapp. Here are a
-        few of my favorites.
+        {letter[2].worked}
       </p>
 
       <div className="xl:mx-52 md:mx-12 sm:mx-7">

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import letter from "@/lib/letter.json";
 
 export default function Contact() {
   return (
@@ -10,7 +11,7 @@ export default function Contact() {
           <Link href="" className="text-blue-400 hover:underline">
             with a direct question on twitter
           </Link>{" "}
-          and I'll respond whenever I can.
+          {letter[1].respond}
         </p>
       </div>
     </section>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import Reviews from "@/components/reviews";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
-import Footer from "@/components/footer";
 import XbenerImg from "@/app/favicon.ico";
+import letter from "@/lib/letter.json";
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
           </Link>
           <Link href="#contact" className="hover:text-yellow-300 transition">
             <button className="px-8 py-3 border border-white rounded-full font-medium hover:bg-white/10 transition">
-              Let's get in touch ↗
+              {letter[0].touch}
             </button>
           </Link>
         </div>
