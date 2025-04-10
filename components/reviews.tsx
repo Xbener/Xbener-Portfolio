@@ -1,6 +1,7 @@
 import Image from "next/image";
 import StackIcon from "tech-stack-icons";
 import reviewsData from "@/lib/review.json";
+import letter from "@/lib/letter.json";
 
 export default function Reviews() {
   return (
@@ -69,25 +70,25 @@ export default function Reviews() {
           <StackIcon name="electron" />
           <StackIcon name="vitejs" />
           <Image
-            src="https://skillicons.dev/icons?i=rust&theme=light&perline=15"
+            src={letter[3]?.rust || ""}
             width="100"
             height="100"
             alt="rust"
           />
           <Image
-            src="https://skillicons.dev/icons?i=solidity&theme=light&perline=15"
+            src={letter[3]?.solidity || ""}
             width="100"
             height="100"
             alt="solidity"
           />
           <Image
-            src="https://skillicons.dev/icons?i=aws&theme=light&perline=15"
+            src={letter[3]?.aws || ""}
             width="100"
             height="100"
             alt="aws"
           />
           <Image
-            src="https://skillicons.dev/icons?i=vercel&theme=light&perline=15"
+            src={letter[3]?.vercel || ""}
             width="100"
             height="100"
             alt="vercel"

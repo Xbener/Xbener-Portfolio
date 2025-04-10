@@ -3,5 +3,12 @@
   { "respond": "and I'll respond whenever I can." },
   {
     "worked": "I've worked on a variety of projects, from web2 to web3 Dapp. Here are a few of my favorites."
+  },
+
+  {
+    "rust": "https://skillicons.dev/icons?i=rust&theme=light&perline=15",
+    "solidity": "https://skillicons.dev/icons?i=solidity&theme=light&perline=15",
+    "aws": "https://skillicons.dev/icons?i=aws&theme=light&perline=15",
+    "vercel": "https://skillicons.dev/icons?i=vercel&theme=light&perline=15"
   }
 ]

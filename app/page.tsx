@@ -3,7 +3,7 @@ import Link from "next/link";
 import Reviews from "@/components/reviews";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
-import XbenerImg from "@/app/favicon.ico";
+import XbenerImg from "@/public/xb.ico";
 import letter from "@/lib/letter.json";
 
 export default function Home() {
