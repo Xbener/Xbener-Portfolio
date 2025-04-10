@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Reviews from "@/components/reviews";
 import Projects from "@/components/projects";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       <Reviews />
       {/* Projects Section */}
       <Projects />
+      {/*Contact Section*/}
+      <Contact />
     </div>
   );
 }
