@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Reviews from "@/components/reviews";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
@@ -29,9 +30,11 @@ export default function Home() {
           <button className="px-8 py-3 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition">
             Tech Skills
           </button>
-          <button className="px-8 py-3 border border-white rounded-full font-medium hover:bg-white/10 transition">
-            Let's get in touch ↗
-          </button>
+          <Link href="#contact" className="hover:text-yellow-300 transition">
+            <button className="px-8 py-3 border border-white rounded-full font-medium hover:bg-white/10 transition">
+              Let's get in touch ↗
+            </button>
+          </Link>
         </div>
       </main>
       {/* Reviews Section */}

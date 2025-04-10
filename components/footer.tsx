@@ -69,9 +69,7 @@ export default function Footer() {
                 <Instagram size={18} />
               </Link>
             </div>
-            <div className="text-sm text-gray-400">
-              Copyright © 2025 Mooncity
-            </div>
+            <div className="text-sm text-gray-400">Copyright © 2025 Xbener</div>
           </div>
         </div>
       </div>
