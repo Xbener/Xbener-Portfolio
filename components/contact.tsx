@@ -8,8 +8,11 @@ export default function Contact() {
         <h2 className="text-4xl md:text-5xl font-bold mb-6">Get in Touch</h2>
         <p className="text-xl">
           Want to chat? Just shoot me a dm{" "}
-          <Link href="" className="text-blue-400 hover:underline">
-            with a direct question on twitter
+          <Link
+            href="https://www.linkedin.com/in/xbener"
+            className="text-blue-400 hover:underline"
+          >
+            with a direct question on Linkedin
           </Link>{" "}
           {letter[1].respond}
         </p>
