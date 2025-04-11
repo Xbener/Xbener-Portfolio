@@ -1,5 +1,12 @@
 import Link from "next/link";
-import { Twitter, Github, Send, Youtube, Instagram } from "lucide-react";
+import {
+  Twitter,
+  Github,
+  Send,
+  Youtube,
+  Instagram,
+  LinkedinIcon,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -26,48 +33,29 @@ export default function Footer() {
 
           <div className="flex flex-col items-center md:items-end">
             <div className="flex items-center space-x-4 mb-4">
-              <Link
-                href="#"
-                aria-label="Twitter"
-                className="hover:text-yellow-300 transition"
-              >
-                <Twitter size={18} />
-              </Link>
-              <Link
-                href="#"
-                aria-label="GitHub"
-                className="hover:text-yellow-300 transition"
-              >
-                <Github size={18} />
-              </Link>
-              <Link
-                href="#"
-                aria-label="Telegram"
-                className="hover:text-yellow-300 transition"
-              >
-                <Send size={18} />
-              </Link>
-              <Link
-                href="#"
-                aria-label="Medium"
-                className="hover:text-yellow-300 transition"
-              >
-                <div className="w-4 h-4 rounded-full border border-white"></div>
-              </Link>
-              <Link
-                href="#"
-                aria-label="YouTube"
-                className="hover:text-yellow-300 transition"
-              >
-                <Youtube size={18} />
-              </Link>
-              <Link
-                href="#"
-                aria-label="Instagram"
-                className="hover:text-yellow-300 transition"
-              >
-                <Instagram size={18} />
-              </Link>
+              <div className="flex items-center space-x-4">
+                <Link
+                  href="https://github.com/Xbener"
+                  aria-label="GitHub"
+                  className="hover:text-yellow-300 transition"
+                >
+                  <Github size={18} />
+                </Link>
+                <Link
+                  href="https://t.me/xbener95"
+                  aria-label="Telegram"
+                  className="hover:text-yellow-300 transition"
+                >
+                  <Send size={18} />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/xbener"
+                  aria-label="LinkedIn"
+                  className="hover:text-yellow-300 transition"
+                >
+                  <LinkedinIcon size={18} />
+                </Link>
+              </div>
             </div>
             <div className="text-sm text-gray-400">Copyright © 2025 Xbener</div>
           </div>

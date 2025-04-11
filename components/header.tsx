@@ -3,7 +3,15 @@
 import type React from "react";
 
 import Link from "next/link";
-import { Twitter, Github, Send, Youtube, Instagram } from "lucide-react";
+import {
+  Twitter,
+  Github,
+  Send,
+  Youtube,
+  Instagram,
+  Linkedin,
+  LinkedinIcon,
+} from "lucide-react";
 
 export default function Header() {
   return (
@@ -26,46 +34,25 @@ export default function Header() {
         </div>
         <div className="flex items-center space-x-4">
           <Link
-            href="#"
-            aria-label="Twitter"
-            className="hover:text-yellow-300 transition"
-          >
-            <Twitter size={18} />
-          </Link>
-          <Link
-            href="#"
+            href="https://github.com/Xbener"
             aria-label="GitHub"
             className="hover:text-yellow-300 transition"
           >
             <Github size={18} />
           </Link>
           <Link
-            href="#"
+            href="https://t.me/xbener95"
             aria-label="Telegram"
             className="hover:text-yellow-300 transition"
           >
             <Send size={18} />
           </Link>
           <Link
-            href="#"
-            aria-label="Medium"
+            href="https://www.linkedin.com/in/xbener"
+            aria-label="LinkedIn"
             className="hover:text-yellow-300 transition"
           >
-            <div className="w-4 h-4 rounded-full border border-white"></div>
-          </Link>
-          <Link
-            href="#"
-            aria-label="YouTube"
-            className="hover:text-yellow-300 transition"
-          >
-            <Youtube size={18} />
-          </Link>
-          <Link
-            href="#"
-            aria-label="Instagram"
-            className="hover:text-yellow-300 transition"
-          >
-            <Instagram size={18} />
+            <LinkedinIcon size={18} />
           </Link>
         </div>
       </nav>
