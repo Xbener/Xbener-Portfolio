@@ -9,7 +9,7 @@ export default function Contact() {
         <p className="text-xl">
           Want to chat? Just shoot me a dm{" "}
           <Link
-            href="https://www.linkedin.com/in/xbener"
+            href="https://www.linkedin.com/in/deng-weile"
             className="text-blue-400 hover:underline"
           >
             with a direct question on Linkedin

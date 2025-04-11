@@ -49,7 +49,7 @@ export default function Footer() {
                   <Send size={18} />
                 </Link>
                 <Link
-                  href="https://www.linkedin.com/in/xbener"
+                  href="https://www.linkedin.com/in/deng-weile"
                   aria-label="LinkedIn"
                   className="hover:text-yellow-300 transition"
                 >
